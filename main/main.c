@@ -93,5 +93,7 @@ void app_main(void) {
             printf("Distance: %.1f cm\n", distance_cm);
         }
 
+        vTaskDelay(950/portTICK_PERIOD_MS); //loop delay
+
     }
 }
